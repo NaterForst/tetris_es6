@@ -2,8 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>JavaScript Tetris</title>
+  <title> Tetris using ES6 </title>
 
+
+  <!-- score column -->
+
+  <div class="grid">
+  <canvas id="_tetrisboard" class="tetris-board"></canvas>
+  <div class="right-column">
+    <div>
+      <h1>TETRIS</h1>
+      <p>Score: <span id="score">0</span></p>
+      <p>Lignes: <span id="lines">0</span></p>
+      <p>Niveaux: <span id="level">0</span></p>
+      <canvas id="next" class="next"></canvas>
+    </div>
+    <button onclick="play()" class="play-button">Jouer</button>
+  </div>
+
+</div>
+  <!-- constants of the game -->
+  <script type="text/javascript" src="constants.js"></script>
   <script type="text/javascript" src="main.js"></script>
 </body>
+
 </html>
