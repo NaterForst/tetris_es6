@@ -1,6 +1,6 @@
 // main
 
-const canvas = document.getElementById('tetris_board');
+const canvas = document.getElementById('_tetrisboard');
 const ctx = canvas.getContext('2d');
 
 // Size of the canvas from constants
